@@ -104,7 +104,7 @@ window.SAMLING = {
 
   // ---------- KONTAKT ----------
   kontakter: [
-    { rolle: "Spørsmål om samlingen", tekst: "Treneren for ditt kull, eller Elisabeth Jarland", epost: "lissie@outlook.com" }
+    { rolle: "Spørsmål om samlingen", tekst: "Treneren for ditt kull, eller Lissie", epost: "lissie@outlook.com" }
   ],
 
   // ---------- PAKKELISTE ----------
@@ -121,8 +121,8 @@ window.SAMLING = {
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
     { spm: "Når må vi sjekke ut?", svar: "Knuts Hyttegrend: senest kl. 14:00. Bitigrenda: senest kl. 11:00. Ta gjerne med bagasjen i bilen før søndagsøkta." },
     { spm: "Hvor er lørdagsmiddagen?", svar: "På Lodge900 i Beitostølen sentrum (over Velkomstsenteret). Servering kl. 18:00 med pizza og pasta, og underholdning etter maten. Drikke er ikke inkludert og kjøpes selv." },
-    { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Elisabeth om noe endrer seg." },
-    { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Elisabeth om dere ikke ønsker det." },
+    { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Lissie om noe endrer seg." },
+    { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Lissie om dere ikke ønsker det." },
     { spm: "Hva gjør de yngste?", svar: "TRY-trenerne har treningsopplegg fra 3. klasse. 1. og 2. klasse får skileik på stadion." },
     { spm: "Hvor finner vi treningstidene for vårt kull?", svar: "I kullets egen Spond-gruppe. Det gjelder også skileiken for 1. og 2. klasse." }
   ]
