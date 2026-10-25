@@ -42,7 +42,7 @@ window.SAMLING = {
   program: {
     Fredag: [
       { tid: "Ved ankomst", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen på Knuts Hyttegrend (åpen kl. 09–19). Se «Hytter» under.", type: "praktisk" },
-      { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Treningstider per kull legges ut i Spond.", type: "trening" },
+      { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Trening fra 3. klasse, skileik for 1. og 2. klasse. Tider per kull kommer i Spond.", type: "trening" },
       { tid: "Kveld", tittel: "Middag på hytta", tekst: "Fredagsmiddag ordner hver familie selv – på hytta eller på veien opp.", type: "mat" }
     ],
     Lørdag: [
@@ -115,6 +115,7 @@ window.SAMLING = {
     { spm: "Hvor er lørdagsmiddagen?", svar: "På Lodge900 i Beitostølen sentrum (over Velkomstsenteret). Servering kl. 18:00 med pizza og pasta, og underholdning etter maten. Drikke er ikke inkludert og kjøpes selv." },
     { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Elisabeth om noe endrer seg." },
     { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Elisabeth om dere ikke ønsker det." },
+    { spm: "Hva gjør de yngste?", svar: "TRY-trenerne har treningsopplegg fra 3. klasse. 1. og 2. klasse får skileik på stadion." },
     { spm: "Hvor finner vi treningstidene for vårt kull?", svar: "Detaljert opplegg per kull legges ut i Spond av trenerne." }
   ]
 };
