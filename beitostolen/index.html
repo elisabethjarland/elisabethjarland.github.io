@@ -26,7 +26,7 @@
     details > summary::-webkit-details-marker { display: none; }
     details[open] .chev { transform: rotate(180deg); }
   </style>
-  <script src="data.js"></script>
+  <script src="data.js?v=2026-10-25"></script>
 </head>
 <body class="bg-navy-50 text-navy-950 antialiased">
 
@@ -93,9 +93,8 @@
         </div>
       </div>
       <div class="mt-3 rounded-2xl bg-navy-900 p-5 text-white">
-        <h3 class="text-lg font-bold">Nødnumre og kontakt</h3>
-        <div class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4" id="nodnumre"></div>
-        <div class="mt-4 space-y-1 text-sm text-white/90" id="kontakter"></div>
+        <h3 class="text-lg font-bold">Kontakt</h3>
+        <div class="mt-3 space-y-1 text-sm text-white/90" id="kontakter"></div>
       </div>
     </section>
 
@@ -133,7 +132,7 @@
   $('undertittel').textContent = D.undertittel;
   $('dato').textContent = D.datoTekst;
   $('oppdatert').textContent = D.sistOppdatert;
-  $('nokkelinfo').innerHTML = D.nøkkelinfo.map(k => `
+  $('nokkelinfo').innerHTML = (D.nøkkelinfo || []).map(k => `
     <div class="rounded-xl bg-white/10 px-3 py-2 ring-1 ring-white/15">
       <div class="text-[11px] font-semibold uppercase tracking-wider text-white/60">${esc(k.etikett)}</div>
       <div class="text-sm font-semibold">${esc(k.verdi)}</div>
@@ -190,7 +189,7 @@
 
   // Hytter
   $('hyttetekst').textContent = D.hytteFordelingTekst;
-  $('hytteliste').innerHTML = D.hytter.map(h => `
+  $('hytteliste').innerHTML = (D.hytter || []).map(h => `
     <article class="flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-navy-100">
       <h3 class="text-lg font-bold">${esc(h.navn)}</h3>
       <p class="mt-1 text-sm text-navy-800/80">${esc(h.adresse)}</p>
@@ -203,21 +202,16 @@
     </article>`).join('');
 
   // Måltider, reise, sikkerhet
-  $('maltider').innerHTML = D.måltider.map(m => `
+  $('maltider').innerHTML = (D.måltider || []).map(m => `
     <div class="py-2.5"><dt class="text-sm font-bold text-tryred">${esc(m.når)}</dt><dd class="text-sm">${esc(m.hva)}</dd></div>`).join('');
   const punkter = (arr) => arr.map(x => `<li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-navy-700"></span><span>${esc(x)}</span></li>`).join('');
-  $('reise').innerHTML = punkter(D.reise);
-  $('sikkerhet').innerHTML = punkter(D.sikkerhet);
-  $('nodnumre').innerHTML = D.nødnumre.map(n => `
-    <a href="tel:${esc(n.nummer.replace(/\s/g,''))}" class="rounded-xl bg-white/10 px-3 py-2 ring-1 ring-white/15 hover:bg-white/20">
-      <div class="text-xl font-extrabold tabular-nums">${esc(n.nummer)}</div>
-      <div class="text-xs text-white/75">${esc(n.navn)}</div>
-    </a>`).join('');
-  $('kontakter').innerHTML = D.kontakter.map(k =>
+  $('reise').innerHTML = punkter(D.reise || []);
+  $('sikkerhet').innerHTML = punkter(D.sikkerhet || []);
+  $('kontakter').innerHTML = (D.kontakter || []).map(k =>
     `<p><strong>${esc(k.rolle)}:</strong> ${esc(k.tekst)}${k.epost ? ` – <a class="underline" href="mailto:${esc(k.epost)}">${esc(k.epost)}</a>` : ''}</p>`).join('');
 
   // Pakkeliste med avkrysning (lagres lokalt på telefonen)
-  $('pakkegrupper').innerHTML = D.pakkeliste.map((g, gi) => `
+  $('pakkegrupper').innerHTML = (D.pakkeliste || []).map((g, gi) => `
     <details class="group rounded-2xl bg-white shadow-sm ring-1 ring-navy-100" ${gi===0?'open':''}>
       <summary class="flex cursor-pointer items-center justify-between gap-3 p-4 font-semibold">
         <span>${esc(g.gruppe)} <span class="ml-1 text-xs font-medium text-navy-800/60" data-teller="${gi}"></span></span>${chev}
@@ -244,7 +238,7 @@
   tell();
 
   // FAQ
-  $('faqliste').innerHTML = D.faq.map(f => `
+  $('faqliste').innerHTML = (D.faq || []).map(f => `
     <details class="rounded-2xl bg-white shadow-sm ring-1 ring-navy-100">
       <summary class="flex cursor-pointer items-center justify-between gap-3 p-4 font-semibold">${esc(f.spm)}${chev}</summary>
       <p class="px-4 pb-4 text-sm text-navy-800/85">${esc(f.svar)}</p>

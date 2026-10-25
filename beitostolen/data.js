@@ -23,10 +23,10 @@ window.SAMLING = {
   // ellers vises det ikke for dem som har lukket det forrige.
   varsel: {
     aktiv: true,
-    id: "2026-10-25-foreløpig",
+    id: "2026-10-25-oppdatert",
     nivå: "info", // "info" (blå) eller "viktig" (oransje)
-    tittel: "Foreløpig program",
-    tekst: "Program, hytter og priser for 2026 er foreløpige og bygger på fjorårets opplegg. Endelig informasjon kommer her og i Spond."
+    tittel: "Oppdatert",
+    tekst: "Overnatting på Knuts Hyttegrend og lørdagsmiddag på Lodge900 er klart. Treningstider er foreløpige. Påmelding og priser kommer når alt er avklart."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
@@ -34,30 +34,27 @@ window.SAMLING = {
     { etikett: "Når", verdi: "4.–6. desember 2026" },
     { etikett: "Hvor", verdi: "Beitostølen skistadion" },
     { etikett: "Påmelding", verdi: "Åpner snart – info i Spond" },
-    { etikett: "Kjøretid fra Oslo", verdi: "Ca. 3 timer" }
+    { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
 
   // ---------- SPORTSPROGRAM ----------
   // type: "trening", "felles", "mat", "praktisk"
   program: {
     Fredag: [
-      { tid: "Fra 14:00", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen der dere bor. Se «Hytter» under.", type: "praktisk" },
+      { tid: "Ved ankomst", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen på Knuts Hyttegrend (åpen kl. 09–19). Se «Hytter» under.", type: "praktisk" },
       { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Treningstider per kull legges ut i Spond.", type: "trening" },
-      { tid: "19:00–20:30", tittel: "Idrettens hus åpent", tekst: "Klubbhuset på stadion. Lagring av ski.", type: "praktisk" },
       { tid: "Kveld", tittel: "Middag på hytta", tekst: "Fredagsmiddag ordner hver familie selv – på hytta eller på veien opp.", type: "mat" }
     ],
     Lørdag: [
       { tid: "09:30–11:00", tittel: "Skitrening i aldersgrupper", tekst: "Stadion eller Garli. Foreldre hjelper med kjøring til Garli. Ta med drikkebelte.", type: "trening" },
-      { tid: "15:00–16:30", tittel: "Idrettens hus åpent", tekst: "Varme, mat og opphold mellom øktene.", type: "praktisk" },
       { tid: "15:30", tittel: "Fellesbilde", tekst: "Tradisjonsrikt og obligatorisk! Oppmøte på skistadion. Ta på TRY-klær.", type: "felles" },
       { tid: "15:45", tittel: "Felles stafett", tekst: "Alle gruppene sammen på skistadion.", type: "felles" },
       { tid: "16:15", tittel: "Skitrening i aldersgrupper", tekst: "Kan også tas før fellesøkta for dem som ønsker det.", type: "trening" },
-      { tid: "18:00", tittel: "Pizza og sosialt på Idrettens hus", tekst: "Felles middag for alle. Lørdagsgodteri deles ut – ikke ta med eget. Avslutning ca. 20:30.", type: "mat" }
+      { tid: "18:00", tittel: "Felles middag på Lodge900", tekst: "Pizza og pasta for alle, servering kl. 18:00. Drikke kjøper hver familie selv. Etter maten blir det underholdning i egen del av lokalet. Lodge900 ligger i Beitostølen sentrum, over Velkomstsenteret.", type: "mat" }
     ],
     Søndag: [
       { tid: "09:30–11:00", tittel: "Skitrening i aldersgrupper", tekst: "Siste økt. Diplom til alle utøvere som avslutning.", type: "trening" },
-      { tid: "09:30–11:00", tittel: "Idrettens hus åpent", tekst: "", type: "praktisk" },
-      { tid: "Se hytta", tittel: "Utsjekk og nøkkelinnlevering", tekst: "Tidspunkt avhenger av hvor dere bor – se «Hytter».", type: "praktisk" }
+      { tid: "Se hytta", tittel: "Utsjekk og nøkkelinnlevering", tekst: "Tidspunkt kommer – se «Hytter».", type: "praktisk" }
     ]
   },
 
@@ -67,25 +64,9 @@ window.SAMLING = {
       navn: "Knuts Hyttegrend",
       adresse: "Bygdinvegen 3704, 2953 Beitostølen",
       telefon: "415 85 379",
-      nøkler: "Hentes i resepsjonen fredag kveld.",
-      utsjekk: "Nøkler leveres i resepsjonen søndag. Utsjekk senest kl. 14:00.",
-      merknad: "Hytter og leiligheter i gangavstand til stadion. Kjøkken, bad og sofagruppe."
-    },
-    {
-      navn: "Bitigrenda",
-      adresse: "Ca. 700 m før Beitostølen sentrum, venstre side av Fv51 (skiltet)",
-      telefon: "61 34 01 00",
-      nøkler: "Konvolutt med ditt navn på døra til resepsjonen, fra kl. 14:00 fredag.",
-      utsjekk: "Nøkler i postkassen ved resepsjonsbygningen. Avreise senest kl. 11:00.",
-      merknad: "Parkering på oversiden av de øverste hyttene. Kun av- og pålessing mellom hyttene."
-    },
-    {
-      navn: "Beitostølen Hytter & Camping",
-      adresse: "Finntøppvegen 2A, Beitostølen",
-      telefon: "481 07 054",
-      nøkler: "Hentes i resepsjonen.",
-      utsjekk: "Nøkler leveres i resepsjonen søndag.",
-      merknad: ""
+      nøkler: "Hentes i resepsjonen fredag. Resepsjonen er åpen kl. 09–19.",
+      utsjekk: "Nøkler leveres i resepsjonen søndag. Tidspunkt for utsjekk kommer.",
+      merknad: "21 hytter og leiligheter med kjøkken og bad. Dyne og pute finnes. Sengetøy kan leies i resepsjonen for 100 kr per sett, håndkle for 10 kr."
     }
   ],
   hytteFordelingTekst: "Hvem som bor hvor, publiseres i Spond-gruppa for samlingen – ikke her, av hensyn til personvern.",
@@ -94,7 +75,7 @@ window.SAMLING = {
   måltider: [
     { når: "Fredag kveld", hva: "Middag på hytta eller på veien opp – hver familie ordner selv." },
     { når: "Frokost og lunsj", hva: "Lages på hytta. Husk matpakke/niste og drikke til øktene." },
-    { når: "Lørdag 18:00", hva: "Felles pizza på Idrettens hus. Allergier meldes ved påmelding." },
+    { når: "Lørdag 18:00", hva: "Felles middag med pizza og pasta på Lodge900 i sentrum. Drikke kjøpes selv. Allergier meldes ved påmelding." },
     { når: "Søndag", hva: "Frokost på hytta, niste til hjemturen." }
   ],
 
@@ -102,8 +83,7 @@ window.SAMLING = {
   reise: [
     "Oslo – Hønefoss – Fagernes (E16), deretter Fv51 til Beitostølen. Ca. 3 timer.",
     "Fredag ettermiddag er det mye trafikk over Sollihøgda – kjør så tidlig dere kan.",
-    "Vinterføre: sjekk vegvesen.no/trafikk før avreise.",
-    "Idrettens hus ligger på skistadion, Stadionvegen 2."
+    "Vinterføre: sjekk vegvesen.no/trafikk før avreise."
   ],
 
   // ---------- SIKKERHET ----------
@@ -115,12 +95,6 @@ window.SAMLING = {
   ],
 
   // ---------- KONTAKT ----------
-  nødnumre: [
-    { navn: "Medisinsk nødhjelp", nummer: "113" },
-    { navn: "Politi", nummer: "112" },
-    { navn: "Brann", nummer: "110" },
-    { navn: "Legevakt", nummer: "116 117" }
-  ],
   kontakter: [
     { rolle: "Spørsmål om samlingen", tekst: "Treneren for ditt kull, eller Elisabeth Jarland", epost: "lissie@outlook.com" }
   ],
@@ -128,19 +102,18 @@ window.SAMLING = {
   // ---------- PAKKELISTE ----------
   pakkeliste: [
     { gruppe: "Ski og smøring", ting: ["Klassiskski og skøyteski (om dere har)", "Staver og støvler", "Festesmøring og glider", "Drikkebelte med flaske"] },
-    { gruppe: "Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff, votter og ekstra votter", "TRY-klær til fellesbildet", "Tørre klær og innesko til Idrettens hus"] },
+    { gruppe: "Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff, votter og ekstra votter", "TRY-klær til fellesbildet", "Tørre klær til lørdagsmiddagen"] },
     { gruppe: "Hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
     { gruppe: "Diverse", ting: ["Hodelykt og refleks", "Termos", "Ladekabel", "Plaster og skavsårplaster"] }
   ],
 
   // ---------- FAQ ----------
   faq: [
-    { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
-    { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Sluttrengjøring er inkludert." },
-    { spm: "Når må vi sjekke ut?", svar: "Knuts Hyttegrend: senest kl. 14:00. Bitigrenda: senest kl. 11:00. Ta gjerne med bagasjen i bilen før søndagsøkta." },
-    { spm: "Hvor er lørdagsmiddagen?", svar: "Pizza på Idrettens hus på skistadion kl. 18:00. De eldste kullene sitter oppe, de yngste nede." },
+    { spm: "Hvor henter vi nøkkelen?", svar: "I resepsjonen på Knuts Hyttegrend, som er åpen kl. 09–19. Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
+    { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
+    { spm: "Når må vi sjekke ut?", svar: "Tidspunktet avklares med Knuts Hyttegrend og kommer her. Ta gjerne med bagasjen i bilen før søndagsøkta." },
+    { spm: "Hvor er lørdagsmiddagen?", svar: "På Lodge900 i Beitostølen sentrum (over Velkomstsenteret). Servering kl. 18:00 med pizza og pasta, og underholdning etter maten. Drikke er ikke inkludert og kjøpes selv." },
     { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Elisabeth om noe endrer seg." },
-    { spm: "Kan vi lagre ski på stadion?", svar: "Ja, i Idrettens hus når det er åpent." },
     { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Elisabeth om dere ikke ønsker det." },
     { spm: "Hvor finner vi treningstidene for vårt kull?", svar: "Detaljert opplegg per kull legges ut i Spond av trenerne." }
   ]
