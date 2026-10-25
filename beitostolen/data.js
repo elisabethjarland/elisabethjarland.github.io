@@ -41,7 +41,7 @@ window.SAMLING = {
   // type: "trening", "felles", "mat", "praktisk"
   program: {
     Fredag: [
-      { tid: "Ved ankomst", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen på Knuts Hyttegrend (åpen kl. 09–19). Se «Hytter» under.", type: "praktisk" },
+      { tid: "Fra 14:00", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen der dere bor. Se «Hytter» under.", type: "praktisk" },
       { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Trening fra 3. klasse, skileik for 1. og 2. klasse. Tider per kull kommer i Spond.", type: "trening" },
       { tid: "Kveld", tittel: "Middag på hytta", tekst: "Fredagsmiddag ordner hver familie selv – på hytta eller på veien opp.", type: "mat" }
     ],
@@ -54,7 +54,7 @@ window.SAMLING = {
     ],
     Søndag: [
       { tid: "09:30–11:00", tittel: "Skitrening i aldersgrupper", tekst: "Siste økt. Diplom til alle utøvere som avslutning.", type: "trening" },
-      { tid: "Se hytta", tittel: "Utsjekk og nøkkelinnlevering", tekst: "Tidspunkt kommer – se «Hytter».", type: "praktisk" }
+      { tid: "Se hytta", tittel: "Utsjekk og nøkkelinnlevering", tekst: "Tidspunkt avhenger av hvor dere bor – se «Hytter».", type: "praktisk" }
     ]
   },
 
@@ -64,9 +64,25 @@ window.SAMLING = {
       navn: "Knuts Hyttegrend",
       adresse: "Bygdinvegen 3704, 2953 Beitostølen",
       telefon: "415 85 379",
-      nøkler: "Hentes i resepsjonen fredag. Resepsjonen er åpen kl. 09–19.",
-      utsjekk: "Nøkler leveres i resepsjonen søndag. Tidspunkt for utsjekk kommer.",
-      merknad: "21 hytter og leiligheter med kjøkken og bad. Dyne og pute finnes. Sengetøy kan leies i resepsjonen for 100 kr per sett, håndkle for 10 kr."
+      nøkler: "Hentes i resepsjonen fredag kveld. Resepsjonen er åpen kl. 09–19.",
+      utsjekk: "Nøkler leveres i resepsjonen søndag. Utsjekk senest kl. 14:00.",
+      merknad: "Hytter og leiligheter i gangavstand til stadion. Kjøkken, bad og sofagruppe. Dyne og pute finnes. Sengetøy kan leies i resepsjonen for 100 kr per sett, håndkle for 10 kr."
+    },
+    {
+      navn: "Bitigrenda",
+      adresse: "Ca. 700 m før Beitostølen sentrum, venstre side av Fv51 (skiltet)",
+      telefon: "61 34 01 00",
+      nøkler: "Konvolutt med ditt navn på døra til resepsjonen, fra kl. 14:00 fredag.",
+      utsjekk: "Nøkler i postkassen ved resepsjonsbygningen. Avreise senest kl. 11:00.",
+      merknad: "Parkering på oversiden av de øverste hyttene. Kun av- og pålessing mellom hyttene."
+    },
+    {
+      navn: "Beitostølen Hytter & Camping",
+      adresse: "Finntøppvegen 2A, Beitostølen",
+      telefon: "481 07 054",
+      nøkler: "Hentes i resepsjonen.",
+      utsjekk: "Nøkler leveres i resepsjonen søndag.",
+      merknad: ""
     }
   ],
   hytteFordelingTekst: "Hvem som bor hvor, publiseres i Spond-gruppa for samlingen – ikke her, av hensyn til personvern.",
@@ -109,9 +125,9 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
-    { spm: "Hvor henter vi nøkkelen?", svar: "I resepsjonen på Knuts Hyttegrend, som er åpen kl. 09–19. Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
+    { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
-    { spm: "Når må vi sjekke ut?", svar: "Tidspunktet avklares med Knuts Hyttegrend og kommer her. Ta gjerne med bagasjen i bilen før søndagsøkta." },
+    { spm: "Når må vi sjekke ut?", svar: "Knuts Hyttegrend: senest kl. 14:00. Bitigrenda: senest kl. 11:00. Ta gjerne med bagasjen i bilen før søndagsøkta." },
     { spm: "Hvor er lørdagsmiddagen?", svar: "På Lodge900 i Beitostølen sentrum (over Velkomstsenteret). Servering kl. 18:00 med pizza og pasta, og underholdning etter maten. Drikke er ikke inkludert og kjøpes selv." },
     { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Elisabeth om noe endrer seg." },
     { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Elisabeth om dere ikke ønsker det." },
