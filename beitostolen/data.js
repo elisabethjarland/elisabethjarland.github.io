@@ -75,14 +75,6 @@ window.SAMLING = {
       nøkler: "Konvolutt med ditt navn på døra til resepsjonen, fra kl. 14:00 fredag.",
       utsjekk: "Nøkler i postkassen ved resepsjonsbygningen. Avreise senest kl. 11:00.",
       merknad: "Parkering på oversiden av de øverste hyttene. Kun av- og pålessing mellom hyttene."
-    },
-    {
-      navn: "Beitostølen Hytter & Camping",
-      adresse: "Finntøppvegen 2A, Beitostølen",
-      telefon: "481 07 054",
-      nøkler: "Hentes i resepsjonen.",
-      utsjekk: "Nøkler leveres i resepsjonen søndag.",
-      merknad: ""
     }
   ],
   hytteFordelingTekst: "Hvem som bor hvor, publiseres i Spond-gruppa for samlingen – ikke her, av hensyn til personvern.",
