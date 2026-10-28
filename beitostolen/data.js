@@ -26,14 +26,14 @@ window.SAMLING = {
     id: "2026-10-28-priser",
     nivå: "info", // "info" (blå) eller "viktig" (oransje)
     tittel: "Oppdatert",
-    tekst: "Priser og Vipps-nummer er klare. Påmeldingen åpner snart i Spond – ikke betal før den er åpnet."
+    tekst: "Priser og Vipps-nummer er klare. Du er påmeldt når du har betalt med Vipps – «delta» i Spond gjelder ikke. Ikke betal før vi gir beskjed om at påmeldingen er åpnet."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
   nøkkelinfo: [
     { etikett: "Når", verdi: "4.–6. desember 2026" },
     { etikett: "Hvor", verdi: "Beitostølen skistadion" },
-    { etikett: "Påmelding", verdi: "Åpner snart – info i Spond" },
+    { etikett: "Påmelding", verdi: "Betaling i Vipps – åpner snart" },
     { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
 
@@ -47,7 +47,7 @@ window.SAMLING = {
     inkludert: "Middag på Lodge900 lørdag, løypeavgift begge dager og trening med TRY-trenere (skileik for 1. og 2. klasse). Med overnatting også seng og utvask. Drikke er ikke inkludert.",
     vipps: "23698",
     merking: "Barnets navn og årskull",
-    status: "Påmeldingen er ikke åpnet ennå. Ikke betal før påmeldingen er åpnet i Spond – hytteplassene fordeles etter når betalingen kommer inn."
+    status: "Påmelding i Spond gjelder ikke – du er påmeldt når du har betalt med Vipps. Påmeldingen er ikke åpnet ennå: ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
   },
 
   // ---------- SPORTSPROGRAM ----------
@@ -130,6 +130,7 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
+    { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 23698. Hytteplassene fordeles etter når betalingen kommer inn." },
     { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
     { spm: "Når må vi sjekke ut?", svar: "Knuts Hyttegrend: senest kl. 14:00. Bitigrenda: senest kl. 11:00. Ta gjerne med bagasjen i bilen før søndagsøkta." },
