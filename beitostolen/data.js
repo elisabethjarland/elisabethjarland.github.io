@@ -15,7 +15,7 @@ window.SAMLING = {
   datoTekst: "Fredag 4. – søndag 6. desember 2026",
   startDato: "2026-12-04", // fredagen – brukes til å åpne riktig dag i programmet
   sted: "Beitostølen skistadion",
-  sistOppdatert: "25.10.2026",
+  sistOppdatert: "28.10.2026",
 
   // ---------- LIVE VARSEL ----------
   // Sett aktiv: true for å vise varselet øverst.
@@ -23,10 +23,10 @@ window.SAMLING = {
   // ellers vises det ikke for dem som har lukket det forrige.
   varsel: {
     aktiv: true,
-    id: "2026-10-25-oppdatert",
+    id: "2026-10-28-priser",
     nivå: "info", // "info" (blå) eller "viktig" (oransje)
     tittel: "Oppdatert",
-    tekst: "Overnatting på Knuts Hyttegrend og lørdagsmiddag på Lodge900 er klart. Treningstider er foreløpige. Påmelding og priser kommer når alt er avklart."
+    tekst: "Priser og Vipps-nummer er klare. Påmeldingen åpner snart i Spond – ikke betal før den er åpnet."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
@@ -36,6 +36,19 @@ window.SAMLING = {
     { etikett: "Påmelding", verdi: "Åpner snart – info i Spond" },
     { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
+
+  // ---------- PRIS OG PÅMELDING ----------
+  påmelding: {
+    priser: [
+      { hva: "Med overnatting", pris: "1 350 kr", per: "per person" },
+      { hva: "Uten overnatting", pris: "570 kr", per: "per person" },
+      { hva: "Tillegg for egen hytte", pris: "1 200 kr", per: "per familie" }
+    ],
+    inkludert: "Middag på Lodge900 lørdag, løypeavgift begge dager og trening med TRY-trenere (skileik for 1. og 2. klasse). Med overnatting også seng og utvask. Drikke er ikke inkludert.",
+    vipps: "23698",
+    merking: "Barnets navn og årskull",
+    status: "Påmeldingen er ikke åpnet ennå. Ikke betal før påmeldingen er åpnet i Spond – hytteplassene fordeles etter når betalingen kommer inn."
+  },
 
   // ---------- SPORTSPROGRAM ----------
   // type: "trening", "felles", "mat", "praktisk"
@@ -112,7 +125,7 @@ window.SAMLING = {
     { gruppe: "Ski og smøring", ting: ["Klassiskski og skøyteski (om dere har)", "Staver og støvler", "Festesmøring og glider", "Drikkebelte med flaske"] },
     { gruppe: "Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff, votter og ekstra votter", "TRY-klær til fellesbildet", "Tørre klær til lørdagsmiddagen"] },
     { gruppe: "Hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
-    { gruppe: "Diverse", ting: ["Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
+    { gruppe: "Diverse", ting: ["Energi til øktene: nøtter, sjokolade eller bar", "Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
   ],
 
   // ---------- FAQ ----------
