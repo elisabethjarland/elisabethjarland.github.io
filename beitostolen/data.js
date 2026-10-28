@@ -112,7 +112,7 @@ window.SAMLING = {
     { gruppe: "Ski og smøring", ting: ["Klassiskski og skøyteski (om dere har)", "Staver og støvler", "Festesmøring og glider", "Drikkebelte med flaske"] },
     { gruppe: "Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff, votter og ekstra votter", "TRY-klær til fellesbildet", "Tørre klær til lørdagsmiddagen"] },
     { gruppe: "Hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
-    { gruppe: "Diverse", ting: ["Hodelykt og refleks", "Termos", "Ladekabel", "Plaster og skavsårplaster"] }
+    { gruppe: "Diverse", ting: ["Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
   ],
 
   // ---------- FAQ ----------
