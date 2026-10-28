@@ -25,7 +25,7 @@ window.SAMLING = {
     aktiv: true,
     id: "2026-10-28-kun-vipps",
     nivå: "viktig", // "info" (blå) eller "viktig" (oransje)
-    tittel: "Påmelding KUN med Vipps",
+    tittel: "Bindende påmelding KUN med Vipps",
     tekst: "«Delta» i Spond er IKKE en påmelding til Beitostølen. Du er bare påmeldt når du har betalt med Vipps 23698. Påmeldingen åpner snart – ikke betal før vi gir beskjed i Spond."
   },
 
@@ -33,7 +33,7 @@ window.SAMLING = {
   nøkkelinfo: [
     { etikett: "Når", verdi: "4.–6. desember 2026" },
     { etikett: "Hvor", verdi: "Beitostølen skistadion" },
-    { etikett: "Påmelding", verdi: "KUN med Vipps 23698" },
+    { etikett: "Påmelding", verdi: "Bindende, KUN Vipps 23698" },
     { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
 
@@ -49,7 +49,7 @@ window.SAMLING = {
     støtteEpost: "finnborc@outlook.com",
     vipps: "23698",
     merking: "Barnets navn og årskull",
-    statusTittel: "Påmelding skjer KUN ved betaling med Vipps 23698",
+    statusTittel: "Bindende påmelding – KUN ved betaling med Vipps 23698",
     status: "«Delta» i Spond er ikke en påmelding til Beitostølen og blir ikke godkjent. Påmeldingen er bindende og er ikke åpnet ennå – ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
   },
 
@@ -127,10 +127,10 @@ window.SAMLING = {
 
   // ---------- PAKKELISTE ----------
   pakkeliste: [
-    { gruppe: "Ski og smøring", ting: ["Klassiskski og skøyteski (om dere har)", "Staver og støvler", "Festesmøring og glider", "Drikkebelte med flaske"] },
-    { gruppe: "Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff, votter og ekstra votter", "TRY-klær til fellesbildet", "Tørre klær til lørdagsmiddagen"] },
-    { gruppe: "Hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
-    { gruppe: "Diverse", ting: ["Energi til øktene: nøtter, sjokolade eller bar", "Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
+    { gruppe: "⛷️ Ski og utstyr", ting: ["Klassiske ski og skøyteski (om dere har)", "Staver og skisko", "Smøring (feste og glider)", "Drikkebelte med flaske"] },
+    { gruppe: "🧥 Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff og votter (gjerne ekstra votter)", "TRY-klær til fellesbildet", "Tørre klær og sko til kvelden"] },
+    { gruppe: "🏡 Til hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
+    { gruppe: "🎒 I sekken", ting: ["Energi: nøtter, sjokolade eller bar", "Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
   ],
 
   // ---------- FAQ ----------
