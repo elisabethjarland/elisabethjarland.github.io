@@ -26,7 +26,7 @@
     details > summary::-webkit-details-marker { display: none; }
     details[open] .chev { transform: rotate(180deg); }
   </style>
-  <script src="data.js?v=2026-10-28h"></script>
+  <script src="data.js?v=2026-10-28i"></script>
 </head>
 <body class="bg-navy-50 text-navy-950 antialiased">
 
@@ -108,7 +108,7 @@
         </div>
       </div>
       <div class="mt-3 rounded-2xl bg-navy-900 p-5 text-white">
-        <h3 class="text-lg font-bold">Kontakt</h3>
+        <h3 class="text-lg font-bold">Spørsmål? 🤔</h3>
         <div class="mt-3 space-y-1 text-sm text-white/90" id="kontakter"></div>
       </div>
     </section>
@@ -242,7 +242,7 @@
   $('reise').innerHTML = punkter(D.reise || []);
   $('sikkerhet').innerHTML = punkter(D.sikkerhet || []);
   $('kontakter').innerHTML = (D.kontakter || []).map(k =>
-    `<p><strong>${esc(k.rolle)}:</strong> ${esc(k.tekst)}${k.epost ? ` – <a class="underline" href="mailto:${esc(k.epost)}">${esc(k.epost)}</a>` : ''}</p>`).join('');
+    `<p class="pt-1"><strong>${esc(k.rolle)}:</strong> ${esc(k.tekst)}${k.epost ? ` <a class="font-semibold underline" href="mailto:${esc(k.epost)}">${esc(k.epost)}</a>` : ''}</p>`).join('');
 
   // Pakkeliste med avkrysning (lagres lokalt på telefonen)
   $('pakkegrupper').innerHTML = (D.pakkeliste || []).map((g, gi) => `

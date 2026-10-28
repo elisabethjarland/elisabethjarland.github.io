@@ -120,7 +120,9 @@ window.SAMLING = {
 
   // ---------- KONTAKT ----------
   kontakter: [
-    { rolle: "Spørsmål om samlingen", tekst: "Treneren for ditt kull, eller Lissie", epost: "lissie@outlook.com" }
+    { rolle: "🎿 Om treningen", tekst: "Spør treneren som har ansvaret for ditt kull." },
+    { rolle: "📖 Om opplegget", tekst: "Les denne siden én gang til – svaret står nesten helt sikkert her 😉" },
+    { rolle: "🆘 Fortsatt i tvil", tekst: "Da har du tre livlinjer, akkurat som i «Vil du bli millionær»: send mail, send SMS eller ring Lissie (telefon finner du i Spond). Hver livline kan bare brukes én gang – så bruk den med omhu! 😄", epost: "lissie@outlook.com" }
   ],
 
   // ---------- PAKKELISTE ----------
