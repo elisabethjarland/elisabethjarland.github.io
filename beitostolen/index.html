@@ -26,7 +26,7 @@
     details > summary::-webkit-details-marker { display: none; }
     details[open] .chev { transform: rotate(180deg); }
   </style>
-  <script src="data.js?v=2026-10-28e"></script>
+  <script src="data.js?v=2026-10-28g"></script>
 </head>
 <body class="bg-navy-50 text-navy-950 antialiased">
 
@@ -69,6 +69,7 @@
         <div class="mt-1 text-3xl font-extrabold tabular-nums" id="vipps"></div>
         <div class="mt-1 text-sm text-navy-800/80">Merk betalingen med: <strong id="merking"></strong></div>
       </div>
+      <p class="mt-4 rounded-2xl bg-navy-100 p-4 text-sm text-navy-950" id="stotte"></p>
     </section>
 
     <!-- SPORTSPROGRAM -->
@@ -181,6 +182,9 @@
     $('inkludert').textContent = P.inkludert || '';
     $('vipps').textContent = 'Vipps ' + (P.vipps || '');
     $('merking').textContent = P.merking || '';
+    if (P.støtte) {
+      $('stotte').innerHTML = esc(P.støtte).replace('{epost}', P.støtteEpost ? `<a class="font-semibold underline" href="mailto:${esc(P.støtteEpost)}">${esc(P.støtteEpost)}</a>` : '');
+    } else { $('stotte').remove(); }
   } else { $('pris').remove(); }
 
   // Program med faner

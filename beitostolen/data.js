@@ -45,6 +45,8 @@ window.SAMLING = {
       { hva: "Tillegg for egen hytte", pris: "1 200 kr", per: "per familie" }
     ],
     inkludert: "Middag på Lodge900 lørdag, løypeavgift begge dager og trening med TRY-trenere (skileik for 1. og 2. klasse). Med overnatting også seng og utvask. Drikke er ikke inkludert.",
+    støtte: "Alle skal kunne bli med på Beitostølen 💙 Trenger dere litt drahjelp med kostnadene, send en melding til Finn Borchgrevink ({epost}), så tar vi det derfra.",
+    støtteEpost: "finnborc@outlook.com",
     vipps: "23698",
     merking: "Barnets navn og årskull",
     status: "Påmeldingen er bindende. Påmelding i Spond gjelder ikke – du er påmeldt når du har betalt med Vipps. Påmeldingen er ikke åpnet ennå: ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
