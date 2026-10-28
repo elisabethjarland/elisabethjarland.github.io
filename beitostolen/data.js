@@ -58,7 +58,7 @@ window.SAMLING = {
   program: {
     Fredag: [
       { tid: "Fra 14:00", tittel: "Innsjekk", tekst: "Hent nøkkel i resepsjonen der dere bor. Se «Hytter» under.", type: "praktisk" },
-      { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Trening fra 3. klasse, skileik for 1. og 2. klasse. Tider kommer i kullets egen Spond-gruppe.", type: "trening" },
+      { tid: "18:00", tittel: "Skitrening i aldersgrupper", tekst: "For dem som rekker det. Trening fra 3. klasse, skileik for 1. og 2. klasse. Økta kommer i Spond fra hovedtreneren for kullet.", type: "trening" },
       { tid: "Kveld", tittel: "Middag på hytta", tekst: "Fredagsmiddag ordner hver familie selv – på hytta eller på veien opp.", type: "mat" }
     ],
     Lørdag: [
@@ -143,6 +143,6 @@ window.SAMLING = {
     { spm: "Hvordan melder vi fra om allergier?", svar: "I påmeldingen. Gi beskjed til Lissie om noe endrer seg." },
     { spm: "Brukes bildene fra samlingen?", svar: "TRY ønsker å bruke fellesbildet på hjemmesiden og i sosiale medier. Si fra til Lissie om dere ikke ønsker det." },
     { spm: "Hva gjør de yngste?", svar: "TRY-trenerne har treningsopplegg fra 3. klasse. 1. og 2. klasse får skileik på stadion." },
-    { spm: "Hvor finner vi treningstidene for vårt kull?", svar: "I kullets egen Spond-gruppe. Det gjelder også skileiken for 1. og 2. klasse." }
+    { spm: "Hvor finner vi treningstidene for vårt kull?", svar: "Øktene kommer i Spond fra hovedtreneren for hvert kull. Det gjelder også skileiken for 1. og 2. klasse." }
   ]
 };
