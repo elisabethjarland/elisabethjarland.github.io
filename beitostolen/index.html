@@ -26,7 +26,7 @@
     details > summary::-webkit-details-marker { display: none; }
     details[open] .chev { transform: rotate(180deg); }
   </style>
-  <script src="data.js?v=2026-10-28g"></script>
+  <script src="data.js?v=2026-10-28h"></script>
 </head>
 <body class="bg-navy-50 text-navy-950 antialiased">
 
@@ -61,7 +61,7 @@
     <!-- PRIS OG PÅMELDING (styres fra data.js -> påmelding) -->
     <section id="pris">
       <h2 class="text-2xl font-bold">Pris og påmelding</h2>
-      <div class="mt-3 rounded-xl border-l-4 border-signal bg-signal-light p-4 text-sm font-semibold text-navy-950" id="pamstatus"></div>
+      <div class="mt-3 rounded-xl border-2 border-signal bg-signal-light p-4 text-navy-950" id="pamstatus"></div>
       <div class="mt-4 grid gap-3 sm:grid-cols-3" id="priser"></div>
       <p class="mt-3 text-sm text-navy-800/80" id="inkludert"></p>
       <div class="mt-4 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-navy-100">
@@ -171,7 +171,7 @@
   // Pris og påmelding
   const P = D.påmelding;
   if (P) {
-    $('pamstatus').textContent = P.status || '';
+    $('pamstatus').innerHTML = (P.statusTittel ? `<div class="text-lg font-extrabold text-signal">${esc(P.statusTittel)}</div>` : '') + `<div class="mt-1 text-sm font-semibold">${esc(P.status || '')}</div>`;
     $('pamstatus').classList.toggle('hidden', !P.status);
     $('priser').innerHTML = (P.priser || []).map(x => `
       <div class="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-navy-100">
