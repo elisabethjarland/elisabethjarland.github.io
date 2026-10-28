@@ -62,14 +62,14 @@ window.SAMLING = {
       { tid: "Kveld", tittel: "Middag på hytta", tekst: "Fredagsmiddag ordner hver familie selv – på hytta eller på veien opp.", type: "mat" }
     ],
     Lørdag: [
-      { tid: "09:30–11:00", tittel: "Skitrening i aldersgrupper", tekst: "Stadion eller Garli. Foreldre hjelper med kjøring til Garli. Ta med drikkebelte.", type: "trening" },
+      { tid: "09:30", tittel: "Skitrening i aldersgrupper", tekst: "Stadion eller Garli. Foreldre hjelper med kjøring til Garli. Ta med drikkebelte.", type: "trening" },
       { tid: "15:30", tittel: "Fellesbilde", tekst: "Tradisjonsrikt og obligatorisk! Oppmøte på skistadion. Ta på TRY-klær.", type: "felles" },
       { tid: "15:45", tittel: "Felles stafett", tekst: "Alle gruppene sammen på skistadion.", type: "felles" },
       { tid: "16:15", tittel: "Skitrening i aldersgrupper", tekst: "Kan også tas før fellesøkta for dem som ønsker det.", type: "trening" },
       { tid: "18:00", tittel: "Felles middag på Lodge900", tekst: "Pizza og pasta for alle, servering kl. 18:00. Drikke kjøper hver familie selv. Etter maten blir det underholdning i egen del av lokalet. Lodge900 ligger i Beitostølen sentrum, over Velkomstsenteret.", type: "mat" }
     ],
     Søndag: [
-      { tid: "09:30–11:00", tittel: "Skitrening i aldersgrupper", tekst: "Siste økt. Diplom til alle utøvere som avslutning.", type: "trening" },
+      { tid: "09:30", tittel: "Skitrening i aldersgrupper", tekst: "Siste økt. Diplom til alle utøvere som avslutning.", type: "trening" },
       { tid: "Se hytta", tittel: "Utsjekk og nøkkelinnlevering", tekst: "Tidspunkt avhenger av hvor dere bor – se «Hytter».", type: "praktisk" }
     ]
   },
