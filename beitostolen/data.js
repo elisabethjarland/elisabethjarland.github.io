@@ -127,10 +127,9 @@ window.SAMLING = {
 
   // ---------- PAKKELISTE ----------
   pakkeliste: [
-    { gruppe: "⛷️ Ski og utstyr", ting: ["Klassiske ski og skøyteski (om dere har)", "Staver og skisko", "Smøring (feste og glider)", "Drikkebelte med flaske"] },
+    { gruppe: "⛷️ Ski og utstyr", ting: ["Klassiske ski og skøyteski (om dere har)", "Staver og skisko", "Smøring (feste og glider)", "Drikkebelte med saft og energi (nøtter, sjokolade eller bar)"] },
     { gruppe: "🧥 Klær", ting: ["Ullundertøy (flere sett)", "Vindtett skijakke og -bukse", "Lue, buff og votter (gjerne ekstra votter)", "TRY-klær til fellesbildet", "Tørre klær og sko til kvelden"] },
-    { gruppe: "🏡 Til hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] },
-    { gruppe: "🎒 I sekken", ting: ["Energi: nøtter, sjokolade eller bar", "Hodelykt og refleks", "Ladekabel", "Plaster og skavsårplaster"] }
+    { gruppe: "🏡 Til hytta", ting: ["Dynetrekk, putevar og laken (dyne og pute finnes)", "Håndkle", "Mat til frokost, lunsj og fredagsmiddag", "Toalettsaker"] }
   ],
 
   // ---------- FAQ ----------
