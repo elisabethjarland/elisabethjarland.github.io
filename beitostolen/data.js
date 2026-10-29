@@ -40,11 +40,11 @@ window.SAMLING = {
   // ---------- PRIS OG PÅMELDING ----------
   påmelding: {
     priser: [
-      { hva: "Med overnatting", pris: "1 350 kr", per: "per person" },
-      { hva: "Uten overnatting", pris: "570 kr", per: "per person" },
+      { hva: "Med overnatting", pris: "1 350 kr", per: "per person – barn og voksne" },
+      { hva: "Uten overnatting", pris: "570 kr", per: "per person – barn og voksne" },
       { hva: "Tillegg for egen hytte", pris: "1 200 kr", per: "per familie" }
     ],
-    inkludert: "Middag på Lodge900 lørdag, løypeavgift begge dager og trening med TRY-trenere (skileik for 1. og 2. klasse). Med overnatting også seng og utvask. Drikke er ikke inkludert.",
+    inkludert: "Alle som deltar betaler – barn, søsken og foreldre. Inkludert i prisen: middag på Lodge900 lørdag, løypeavgift begge dager og trening med TRY-trenere (skileik for 1. og 2. klasse). Med overnatting også seng og utvask. Drikke er ikke inkludert.",
     støtte: "Alle skal kunne bli med på Beitostølen 💙 Trenger dere litt drahjelp med kostnadene, send en melding til Finn Borchgrevink ({epost}), så tar vi det derfra.",
     støtteEpost: "finnborc@outlook.com",
     vipps: "24598",
@@ -134,6 +134,7 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
+    { spm: "Må foreldre og søsken også betale?", svar: "Ja. Alle som deltar betaler – barn, søsken og foreldre. Prisen er per person. Betal samlet for hele familien i én Vipps-betaling til 24598." },
     { spm: "Hvordan betaler vi for hele familien?", svar: "Én samlet Vipps-betaling til 24598 for alle i familien. Merk med barnets navn, årskull og antall personer, f.eks. «Ola Nordmann 2016 – 4 pers». Har dere flere barn med, holder det å skrive navnet på ett av dem. Ønsker dere egen hytte, legg til 1 200 kr og skriv «egen hytte»." },
     { spm: "Når får vi vite hvilken hytte vi skal bo i?", svar: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november." },
     { spm: "Når er påmeldingsfristen?", svar: "Torsdag 12. november. I fjor ble det helt fullt, og hytteplassene går etter førstemann til mølla – så ikke vent for lenge." },
