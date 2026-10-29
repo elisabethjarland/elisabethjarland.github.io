@@ -93,7 +93,7 @@ window.SAMLING = {
       merknad: "Parkering på oversiden av de øverste hyttene. Kun av- og pålessing mellom hyttene."
     }
   ],
-  hytteFordelingTekst: "Hvem som bor hvor, publiseres i Spond-gruppa for samlingen – ikke her, av hensyn til personvern.",
+  hytteFordelingTekst: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november – ikke her, av hensyn til personvern.",
 
   // ---------- MÅLTIDER ----------
   måltider: [
@@ -134,6 +134,7 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
+    { spm: "Når får vi vite hvilken hytte vi skal bo i?", svar: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november." },
     { spm: "Når er påmeldingsfristen?", svar: "Torsdag 12. november. I fjor ble det helt fullt, og hytteplassene går etter førstemann til mølla – så ikke vent for lenge." },
     { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 23698, og påmeldingen er bindende. Hytteplassene fordeles etter når betalingen kommer inn." },
     { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
