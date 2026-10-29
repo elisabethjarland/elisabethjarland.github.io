@@ -50,7 +50,7 @@ window.SAMLING = {
     vipps: "23698",
     merking: "Barnets navn og årskull",
     statusTittel: "Bindende påmelding – KUN ved betaling med Vipps 23698",
-    status: "«Delta» i Spond er ikke en påmelding til Beitostølen og blir ikke godkjent. Påmeldingen er bindende og er ikke åpnet ennå – ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
+    status: "Påmeldingsfrist: torsdag 12. november. I fjor ble det helt fullt, så ikke vent for lenge. «Delta» i Spond er ikke en påmelding til Beitostølen og blir ikke godkjent. Påmeldingen er bindende og er ikke åpnet ennå – ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
   },
 
   // ---------- SPORTSPROGRAM ----------
@@ -135,6 +135,7 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
+    { spm: "Når er påmeldingsfristen?", svar: "Torsdag 12. november. I fjor ble det helt fullt, og hytteplassene går etter førstemann til mølla – så ikke vent for lenge." },
     { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 23698, og påmeldingen er bindende. Hytteplassene fordeles etter når betalingen kommer inn." },
     { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
