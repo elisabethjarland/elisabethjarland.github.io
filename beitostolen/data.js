@@ -48,7 +48,7 @@ window.SAMLING = {
     støtte: "Alle skal kunne bli med på Beitostølen 💙 Trenger dere litt drahjelp med kostnadene, send en melding til Finn Borchgrevink ({epost}), så tar vi det derfra.",
     støtteEpost: "finnborc@outlook.com",
     vipps: "24598",
-    merking: "Barnets navn og årskull",
+    merking: "Barnets navn, årskull og antall personer – f.eks. «Ola Nordmann 2016 – 4 pers». Én samlet betaling for hele familien. Egen hytte: legg til 1 200 kr og skriv «egen hytte».",
     statusTittel: "Påmeldingen er åpen – KUN ved betaling med Vipps 24598",
     status: "Påmeldingen er åpen! Frist: torsdag 12. november. I fjor ble det helt fullt, så ikke vent for lenge – hytteplassene fordeles etter når betalingen kommer inn. Påmeldingen er bindende, og «delta» i Spond er ikke en påmelding og blir ikke godkjent."
   },
@@ -134,6 +134,7 @@ window.SAMLING = {
 
   // ---------- FAQ ----------
   faq: [
+    { spm: "Hvordan betaler vi for hele familien?", svar: "Én samlet Vipps-betaling til 24598 for alle i familien. Merk med barnets navn, årskull og antall personer, f.eks. «Ola Nordmann 2016 – 4 pers». Har dere flere barn med, holder det å skrive navnet på ett av dem. Ønsker dere egen hytte, legg til 1 200 kr og skriv «egen hytte»." },
     { spm: "Når får vi vite hvilken hytte vi skal bo i?", svar: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november." },
     { spm: "Når er påmeldingsfristen?", svar: "Torsdag 12. november. I fjor ble det helt fullt, og hytteplassene går etter førstemann til mølla – så ikke vent for lenge." },
     { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 24598, og påmeldingen er bindende. Hytteplassene fordeles etter når betalingen kommer inn." },
