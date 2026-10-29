@@ -23,17 +23,17 @@ window.SAMLING = {
   // ellers vises det ikke for dem som har lukket det forrige.
   varsel: {
     aktiv: true,
-    id: "2026-10-28-kun-vipps",
+    id: "2026-10-29-apen",
     nivå: "viktig", // "info" (blå) eller "viktig" (oransje)
-    tittel: "Bindende påmelding KUN med Vipps",
-    tekst: "«Delta» i Spond er IKKE en påmelding til Beitostølen. Du er bare påmeldt når du har betalt med Vipps 24598. Påmeldingen åpner snart – ikke betal før vi gir beskjed i Spond."
+    tittel: "Påmeldingen er åpen – frist torsdag 12. november",
+    tekst: "Bindende påmelding KUN med Vipps 24598. «Delta» i Spond er IKKE en påmelding. Hytteplassene går etter førstemann til mølla."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
   nøkkelinfo: [
     { etikett: "Når", verdi: "4.–6. desember 2026" },
     { etikett: "Hvor", verdi: "Beitostølen skistadion" },
-    { etikett: "Påmelding", verdi: "Bindende, KUN Vipps 24598" },
+    { etikett: "Påmelding", verdi: "Åpen! Vipps 24598, frist 12.11" },
     { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
 
@@ -49,8 +49,8 @@ window.SAMLING = {
     støtteEpost: "finnborc@outlook.com",
     vipps: "24598",
     merking: "Barnets navn og årskull",
-    statusTittel: "Bindende påmelding – KUN ved betaling med Vipps 24598",
-    status: "Påmeldingsfrist: torsdag 12. november. I fjor ble det helt fullt, så ikke vent for lenge. «Delta» i Spond er ikke en påmelding til Beitostølen og blir ikke godkjent. Påmeldingen er bindende og er ikke åpnet ennå – ikke betal før vi gir beskjed i Spond. Hytteplassene fordeles etter når betalingen kommer inn."
+    statusTittel: "Påmeldingen er åpen – KUN ved betaling med Vipps 24598",
+    status: "Påmeldingen er åpen! Frist: torsdag 12. november. I fjor ble det helt fullt, så ikke vent for lenge – hytteplassene fordeles etter når betalingen kommer inn. Påmeldingen er bindende, og «delta» i Spond er ikke en påmelding og blir ikke godkjent."
   },
 
   // ---------- SPORTSPROGRAM ----------
