@@ -26,7 +26,7 @@ window.SAMLING = {
     id: "2026-11-18-stengt",
     nivå: "info", // "info" (blå) eller "viktig" (oransje)
     tittel: "Påmeldingen er stengt",
-    tekst: "Takk til alle som har meldt seg på! Hyttefordelingen kommer i Spond. Etternøler uten overnatting? Ta kontakt med Lissie før du betaler."
+    tekst: "Takk til alle som har meldt seg på! Hyttefordelingen kommer i Spond. Ikke betal uten avtale med Lissie."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
@@ -50,7 +50,7 @@ window.SAMLING = {
     vipps: "24598",
     merking: "Barnets navn, årskull og antall personer – f.eks. «Ola Nordmann 2016 – 4 pers». Én samlet betaling for hele familien. Egen hytte: legg til 1 200 kr og skriv «egen hytte».",
     statusTittel: "Påmeldingen er stengt",
-    status: "Fristen var torsdag 12. november, og alle hytteplassene er fordelt. Etternøler uten overnatting? Ta kontakt med Lissie (lissie@outlook.com) før du betaler – prisen er den samme som for alle andre."
+    status: "Fristen var torsdag 12. november, og vi tar ikke imot flere påmeldinger. Ikke betal uten avtale med Lissie (lissie@outlook.com)."
   },
 
   // ---------- SPORTSPROGRAM ----------
@@ -137,7 +137,7 @@ window.SAMLING = {
     { spm: "Må foreldre og søsken også betale?", svar: "Ja. Alle som deltar betaler – barn, søsken og foreldre. Prisen er per person. Betal samlet for hele familien i én Vipps-betaling til 24598." },
     { spm: "Hvordan betaler vi for hele familien?", svar: "Én samlet Vipps-betaling til 24598 for alle i familien. Merk med barnets navn, årskull og antall personer, f.eks. «Ola Nordmann 2016 – 4 pers». Har dere flere barn med, holder det å skrive navnet på ett av dem. Ønsker dere egen hytte, legg til 1 200 kr og skriv «egen hytte»." },
     { spm: "Når får vi vite hvilken hytte vi skal bo i?", svar: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november." },
-    { spm: "Kan vi fortsatt melde oss på?", svar: "Påmeldingen er stengt og alle hytteplassene er fordelt. Etternølere uten overnatting kan ta kontakt med Lissie (lissie@outlook.com) før de betaler." },
+    { spm: "Kan vi fortsatt melde oss på?", svar: "Nei, påmeldingen er stengt. Ikke betal uten å ha avtalt det med Lissie (lissie@outlook.com) først." },
     { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 24598, og påmeldingen er bindende. Hytteplassene fordeles etter når betalingen kommer inn." },
     { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
