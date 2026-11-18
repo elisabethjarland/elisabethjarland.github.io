@@ -23,17 +23,17 @@ window.SAMLING = {
   // ellers vises det ikke for dem som har lukket det forrige.
   varsel: {
     aktiv: true,
-    id: "2026-10-29-apen",
-    nivå: "viktig", // "info" (blå) eller "viktig" (oransje)
-    tittel: "Påmeldingen er åpen – frist torsdag 12. november",
-    tekst: "Bindende påmelding KUN med Vipps 24598. «Delta» i Spond er IKKE en påmelding. Hytteplassene går etter førstemann til mølla."
+    id: "2026-11-18-stengt",
+    nivå: "info", // "info" (blå) eller "viktig" (oransje)
+    tittel: "Påmeldingen er stengt",
+    tekst: "Takk til alle som har meldt seg på! Hyttefordelingen kommer i Spond. Etternøler uten overnatting? Ta kontakt med Lissie før du betaler."
   },
 
   // ---------- NØKKELINFO (kortene under toppen) ----------
   nøkkelinfo: [
     { etikett: "Når", verdi: "4.–6. desember 2026" },
     { etikett: "Hvor", verdi: "Beitostølen skistadion" },
-    { etikett: "Påmelding", verdi: "Åpen! Vipps 24598, frist 12.11" },
+    { etikett: "Påmelding", verdi: "Stengt" },
     { etikett: "Overnatting", verdi: "Knuts Hyttegrend" }
   ],
 
@@ -49,8 +49,8 @@ window.SAMLING = {
     støtteEpost: "finnborc@outlook.com",
     vipps: "24598",
     merking: "Barnets navn, årskull og antall personer – f.eks. «Ola Nordmann 2016 – 4 pers». Én samlet betaling for hele familien. Egen hytte: legg til 1 200 kr og skriv «egen hytte».",
-    statusTittel: "Påmeldingen er åpen – KUN ved betaling med Vipps 24598",
-    status: "Påmeldingen er åpen! Frist: torsdag 12. november. I fjor ble det helt fullt, så ikke vent for lenge – hytteplassene fordeles etter når betalingen kommer inn. Påmeldingen er bindende, og «delta» i Spond er ikke en påmelding og blir ikke godkjent."
+    statusTittel: "Påmeldingen er stengt",
+    status: "Fristen var torsdag 12. november, og alle hytteplassene er fordelt. Etternøler uten overnatting? Ta kontakt med Lissie (lissie@outlook.com) før du betaler – prisen er den samme som for alle andre."
   },
 
   // ---------- SPORTSPROGRAM ----------
@@ -137,7 +137,7 @@ window.SAMLING = {
     { spm: "Må foreldre og søsken også betale?", svar: "Ja. Alle som deltar betaler – barn, søsken og foreldre. Prisen er per person. Betal samlet for hele familien i én Vipps-betaling til 24598." },
     { spm: "Hvordan betaler vi for hele familien?", svar: "Én samlet Vipps-betaling til 24598 for alle i familien. Merk med barnets navn, årskull og antall personer, f.eks. «Ola Nordmann 2016 – 4 pers». Har dere flere barn med, holder det å skrive navnet på ett av dem. Ønsker dere egen hytte, legg til 1 200 kr og skriv «egen hytte»." },
     { spm: "Når får vi vite hvilken hytte vi skal bo i?", svar: "Hyttefordelingen kommer i Spond etter påmeldingsfristen 12. november." },
-    { spm: "Når er påmeldingsfristen?", svar: "Torsdag 12. november. I fjor ble det helt fullt, og hytteplassene går etter førstemann til mølla – så ikke vent for lenge." },
+    { spm: "Kan vi fortsatt melde oss på?", svar: "Påmeldingen er stengt og alle hytteplassene er fordelt. Etternølere uten overnatting kan ta kontakt med Lissie (lissie@outlook.com) før de betaler." },
     { spm: "Er vi påmeldt når vi har trykket «delta» i Spond?", svar: "Nei. Påmelding i Spond gjelder ikke. Dere er påmeldt når dere har betalt med Vipps 24598, og påmeldingen er bindende. Hytteplassene fordeles etter når betalingen kommer inn." },
     { spm: "Hvor henter vi nøkkelen?", svar: "Det avhenger av hvor dere bor – se «Hytter». Hvilken hytte dere har fått, står i hyttefordelingen i Spond." },
     { spm: "Må vi ta med sengetøy?", svar: "Ja. Alle hyttene har dyne og pute, men dere må ta med dynetrekk, putevar, laken og håndkle. Har dere glemt det, kan det leies i resepsjonen (100 kr per sett, håndkle 10 kr). Sluttrengjøring er inkludert." },
