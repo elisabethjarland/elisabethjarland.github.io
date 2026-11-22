@@ -8,7 +8,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 5",
     "version": "Nettkopi 1",
     "file": "media/S05-1.webp",
-    "thumbnail": "media/S05-1-mini.webp"
+    "thumbnail": "media/S05-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S10-1",
@@ -19,7 +20,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 10",
     "version": "Nettkopi 1",
     "file": "media/S10-1.webp",
-    "thumbnail": "media/S10-1-mini.webp"
+    "thumbnail": "media/S10-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S22-1",
@@ -30,7 +32,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 22",
     "version": "Nettkopi 1",
     "file": "media/S22-1.webp",
-    "thumbnail": "media/S22-1-mini.webp"
+    "thumbnail": "media/S22-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "F05",
@@ -41,7 +44,8 @@
     "source": "Henne arikkel Elisabeth 300dpi.jpg",
     "version": "Nettkopi 1",
     "file": "media/F05.webp",
-    "thumbnail": "media/F05-mini.webp"
+    "thumbnail": "media/F05-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S20-1",
@@ -52,7 +56,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 20",
     "version": "Nettkopi 1",
     "file": "media/S20-1.webp",
-    "thumbnail": "media/S20-1-mini.webp"
+    "thumbnail": "media/S20-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S21-1",
@@ -63,7 +68,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 21",
     "version": "Nettkopi 1",
     "file": "media/S21-1.webp",
-    "thumbnail": "media/S21-1-mini.webp"
+    "thumbnail": "media/S21-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S32-1",
@@ -74,7 +80,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 32",
     "version": "Nettkopi 1",
     "file": "media/S32-1.webp",
-    "thumbnail": "media/S32-1-mini.webp"
+    "thumbnail": "media/S32-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S35-1",
@@ -85,7 +92,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 35",
     "version": "Nettkopi 1",
     "file": "media/S35-1.webp",
-    "thumbnail": "media/S35-1-mini.webp"
+    "thumbnail": "media/S35-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "S40-1",
@@ -96,7 +104,8 @@
     "source": "Idrettskarriere – Elisabeth Jarland, lysbilde 40",
     "version": "Nettkopi 1",
     "file": "media/S40-1.webp",
-    "thumbnail": "media/S40-1-mini.webp"
+    "thumbnail": "media/S40-1-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "F02",
@@ -107,7 +116,8 @@
     "source": "DN Artikkel.PNG",
     "version": "Nettkopi 1",
     "file": "media/F02.webp",
-    "thumbnail": "media/F02-mini.webp"
+    "thumbnail": "media/F02-mini.webp",
+    "section": "Bilder og utklipp"
   },
   {
     "id": "LIS-V01",
@@ -118,7 +128,8 @@
     "source": "AI-generert bassengskisse for filmprosjektet",
     "version": "01",
     "file": "media/LIS-V01.webp",
-    "thumbnail": "media/LIS-V01-mini.webp"
+    "thumbnail": "media/LIS-V01-mini.webp",
+    "section": "Diverse"
   },
   {
     "id": "LIS-ST01",
@@ -129,6 +140,7 @@
     "source": "Tidlig AI-generert stilskisse for filmprosjektet",
     "version": "01",
     "file": "media/LIS-ST01.webp",
-    "thumbnail": "media/LIS-ST01-mini.webp"
+    "thumbnail": "media/LIS-ST01-mini.webp",
+    "section": "Diverse"
   }
 ]

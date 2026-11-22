@@ -78,3 +78,13 @@
   modal.addEventListener('close',()=>{host.replaceChildren();link.removeAttribute('href');if(opener?.isConnected)opener.focus();opener=null;});
   modal.addEventListener('click',event=>{if(event.target!==modal)return;const box=modal.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)modal.close();});
 })();
+
+// Catalogue navigation for video exports that contain only the video header.
+(() => {
+  const intro = document.querySelector("header.shell .intro");
+  if (!intro || document.querySelector("header.shell .media-nav")) return;
+  intro.insertAdjacentHTML("beforebegin", "<nav class=\"media-nav\" aria-label=\"Katalogdel\"><a href=\"/swimming-media-catalog/\" aria-current=\"page\">Videoer</a><a href=\"/swimming-media-catalog/bilder.html\">Bilder og utklipp</a><a href=\"/swimming-media-catalog/diverse.html\">Diverse</a></nav>");
+  if (!document.querySelector('link[href="/swimming-media-catalog/andre-medier.css"]')) {
+    document.head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"/swimming-media-catalog/andre-medier.css\">");
+  }
+})();

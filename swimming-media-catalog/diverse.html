@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  
+  <link rel="canonical" href="https://elisabethjarland.github.io/swimming-media-catalog/diverse.html">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="AI-genererte bassengskisser laget til karrierefilmen. Begge viser oppdiktede svømmehaller.">
+  <title>Diverse · Elisabeth Jarland</title>
+  <link rel="stylesheet" href="/swimming/catalogue.css">
+
+
+<link rel="stylesheet" href="/swimming-media-catalog/andre-medier.css"></head>
+<body>
+  <a class="skip" href="#catalogue">Hopp til katalogen</a>
+  <header class="shell">
+    <div class="tag">ELISABETH JARLAND · SVØMMEKARRIERE</div>
+    <div class="heading-row"><h1>Katalog</h1><a class="channel" href="https://www.youtube.com/@ElisabethJarlandSwimmingCareer" target="_blank" rel="noopener">YouTube-kanalen</a></div>
+    <nav class="media-nav" aria-label="Katalogdel"><a href="/swimming-media-catalog/">Videoer</a><a href="/swimming-media-catalog/bilder.html">Bilder og utklipp</a><a href="/swimming-media-catalog/diverse.html" aria-current="page">Diverse</a></nav><p class="intro">AI-genererte bassengskisser laget til karrierefilmen. Begge viser oppdiktede svømmehaller.</p></header>
+<main class="shell" id="catalogue"><div class="media-tools"><label>Søk i diverse<input type="search" id="query"></label></div><p id="found" role="status"></p><div class="grid">
+<article class="card"><a href="media/LIS-V01.webp"><img class="still" src="media/LIS-V01-mini.webp" alt="Ved vannflaten"></a><div class="card-body"><small class="eyebrow">AI-generert illustrasjon · LIS-V01</small><h2>Ved vannflaten</h2><p class="date">2026 · Stilprøve</p><p>Iscenesatt illustrasjon av en oppdiktet konkurransearena, laget til filmen.</p><p class="muted">AI-generert bassengskisse for filmprosjektet</p><a href="media/LIS-V01.webp">Vis stort bilde</a></div></article>
+<article class="card"><a href="media/LIS-ST01.webp"><img class="still" src="media/LIS-ST01-mini.webp" alt="Fire perspektiver på bassenget"></a><div class="card-body"><small class="eyebrow">AI-generert illustrasjon · LIS-ST01</small><h2>Fire perspektiver på bassenget</h2><p class="date">2026 · Stilprøve</p><p>Startpall, banetau og undervann i en oppdiktet svømmehall.</p><p class="muted">Tidlig AI-generert stilskisse for filmprosjektet</p><a href="media/LIS-ST01.webp">Vis stort bilde</a></div></article>
+</div></main><script>
+const input = document.getElementById('query');
+const cards = [...document.querySelectorAll('article.card')];
+function filter() {
+  const query = input.value.trim().toLocaleLowerCase('nb');
+  for (const card of cards) card.hidden = !card.textContent.toLocaleLowerCase('nb').includes(query);
+  const count = cards.filter(card => !card.hidden).length;
+  document.getElementById('found').textContent = count ? count + ' treff' : 'Ingen treff.';
+}
+input.addEventListener('input', filter);
+filter();
+</script></body></html>
