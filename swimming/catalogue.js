@@ -83,6 +83,8 @@
 (() => {
   const intro = document.querySelector("header.shell .intro");
   if (!intro || document.querySelector("header.shell .media-nav")) return;
+  document.querySelector("header.shell .tag").textContent = "Elisabeth Jarland - Mediekatalog - Svømmerkarriere";
+  document.querySelector("header.shell h1").textContent = "Mediekatalog";
   intro.insertAdjacentHTML("beforebegin", "<nav class=\"media-nav\" aria-label=\"Katalogdel\"><a href=\"/swimming-media-catalog/\" aria-current=\"page\">Videoer</a><a href=\"/swimming-media-catalog/bilder.html\">Bilder og utklipp</a><a href=\"/swimming-media-catalog/diverse.html\">Diverse</a></nav>");
   if (!document.querySelector('link[href="/swimming-media-catalog/andre-medier.css"]')) {
     document.head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"/swimming-media-catalog/andre-medier.css\">");
