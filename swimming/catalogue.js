@@ -25,7 +25,7 @@
   for (const group of data.collections) addOption(fields.collection,group.id,group.label);
   for (const year of [...new Set(clips.map(c => c.year))].sort()) addOption(fields.year,year);
   for (const kind of [...new Set(clips.map(c => c.kind))].sort((a,b)=>a.localeCompare(b,'nb'))) addOption(fields.kind,kind);
-  document.getElementById('availability').textContent=`${data.ready_count} av ${clips.length} klipp kan spilles nå. Flere legges til fortløpende.`;
+  document.getElementById('availability').textContent=data.ready_count===clips.length ? `Alle ${clips.length} klipp kan spilles i katalogen.` : `${data.ready_count} av ${clips.length} klipp kan spilles nå.`;
   const compareTimeline = (a,b) => { for(let i=0;i<a.sort.length;i++){const diff=a.sort[i]-b.sort[i];if(diff)return diff;}return a.id.localeCompare(b.id,'nb',{numeric:true}); };
   function filter() {
     const words=fold(fields.search.value).split(/\s+/).filter(Boolean);
